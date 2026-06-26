@@ -1,0 +1,25 @@
+baseURL = 'https://mark86092.github.io/math-contest/'
+locale = 'zh-tw'
+title = '數學競賽題庫'
+theme = 'hugo-book'
+enableRobotsTXT = true
+
+[params]
+  BookSection = '*'
+  BookTheme = 'auto'
+  BookToC = true
+  BookSearch = true
+  BookCollapseSection = true
+  BookMenuWidth = 280
+
+[[menus.before]]
+  name = "依日期瀏覽"
+  url = "/timeline/"
+  weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'github'
