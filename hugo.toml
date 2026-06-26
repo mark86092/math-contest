@@ -5,6 +5,7 @@ theme = 'hugo-book'
 enableRobotsTXT = true
 
 [params]
+  BookDateFormat = '2006/01/02'
   BookSection = '*'
   BookTheme = 'auto'
   BookToC = true
