@@ -1,7 +1,6 @@
 ---
 title: "決賽"
 bookCollapseSection: true
-weight: 20
 date: 2025-12-05
 ---
 
