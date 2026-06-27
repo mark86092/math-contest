@@ -3,3 +3,9 @@
     margin-bottom: 0.5em;
   }
 }
+
+@media print {
+  .book-header aside {
+    display: none;
+  }
+}
