@@ -50,6 +50,7 @@ content/亞太數學奧林匹亞競賽初選考試/<年度>/第二階段/_index.
 - 參考資料統一放在頁面**最下方**，標題為 `## Reference`，內容用列點
 - PDF 連結格式：`- [說明文字](/math-contest/files/...)`
 - 來源網站直接展開 URL，例如：`- https://cantor.math.ntnu.edu.tw/...`
+- 日期用 `date` front matter（顯示在標題下方，格式 `2006/01/02`，同時決定 timeline 排序）。跨多日的活動（例如研習營）另加 `enddate`，會渲染成「開始～結束」區間；`date` 仍為開始日。此區間顯示由 `layouts/partials/docs/post-meta.html` 處理。
 
 ## 各年度區域命名
 
