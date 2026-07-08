@@ -3,6 +3,7 @@ locale = 'zh-tw'
 title = '數學競賽題庫'
 theme = 'hugo-book'
 enableRobotsTXT = true
+buildFuture = true
 
 [params]
   BookDateFormat = '2006/01/02'
