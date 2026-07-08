@@ -1,0 +1,9 @@
+{{- $titles := slice -}}
+{{- $p := . -}}
+{{- range seq 20 -}}
+  {{- if and $p (ne $p.Kind "home") -}}
+    {{- $titles = $titles | append $p.Title -}}
+    {{- $p = $p.Parent -}}
+  {{- end -}}
+{{- end -}}
+{{- delimit (collections.Reverse $titles) " " -}}

@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article class="markdown book-article">
-    {{- with .Title }}<h1>{{ . }}</h1>{{ end -}}
+    {{- with partial "breadcrumb-title.html" . }}<h1>{{ . }}</h1>{{ end -}}
     {{- .Content -}}
   </article>
 {{ end }}

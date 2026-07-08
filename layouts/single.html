@@ -1,14 +1,6 @@
 {{ define "main" }}
   <article class="markdown book-article">
-    {{- $titles := slice -}}
-    {{- $p := . -}}
-    {{- range seq 20 -}}
-      {{- if and $p (ne $p.Kind "home") -}}
-        {{- $titles = $titles | append $p.Title -}}
-        {{- $p = $p.Parent -}}
-      {{- end -}}
-    {{- end -}}
-    {{- with delimit (collections.Reverse $titles) " " }}<h1>{{ . }}</h1>{{ end -}}
+    {{- with partial "breadcrumb-title.html" . }}<h1>{{ . }}</h1>{{ end -}}
     {{- .Content -}}
   </article>
 {{ end }}
