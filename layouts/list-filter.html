@@ -5,26 +5,24 @@
 
   {{- $filter := .Params.filterpath -}}
   {{- $result := slice -}}
-  {{- range site.RegularPages -}}
-    {{- if and .File (strings.Contains .File.Path $filter) -}}
+  {{- range site.Pages -}}
+    {{- if and (eq .Kind "section") .File (strings.Contains .File.Path $filter) -}}
       {{- $result = $result | append . -}}
     {{- end -}}
   {{- end -}}
   {{- $sorted := sort $result "File.Path" -}}
 
   {{- range $sorted }}
-  {{- $breadcrumb := slice -}}
-  {{- $p := . -}}
-  {{- range seq 10 -}}
-    {{- if and $p (ne $p.Kind "home") -}}
-      {{- $breadcrumb = $breadcrumb | append $p.Title -}}
-      {{- $p = $p.Parent -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $breadcrumb = collections.Reverse $breadcrumb -}}
+  {{- $pg := . -}}
+  {{- $dateOwner := "" -}}
+  {{- if $pg.Params.date -}}{{ $dateOwner = $pg }}
+  {{- else if and $pg.Parent $pg.Parent.Params.date -}}{{ $dateOwner = $pg.Parent }}{{- end -}}
 
   <div style="display:flex; align-items:baseline; gap:1rem; padding:0.5rem 0; border-bottom:1px solid var(--gray-100);">
-    <a href="{{ .RelPermalink }}">{{ delimit $breadcrumb " / " }}</a>
+    <span style="white-space:nowrap; opacity:0.6; font-size:0.9em; min-width:6rem;">
+      {{- with $dateOwner }}{{ partial "docs/date-range" . }}{{ end -}}
+    </span>
+    <a href="{{ $pg.RelPermalink }}">{{ $pg.Parent.Parent.Title }}</a>
   </div>
   {{- else }}
   <p>找不到符合的頁面。</p>
