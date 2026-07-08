@@ -1,5 +1,6 @@
 ---
 title: "第一階段"
+bookCollapseSection: true
 weight: 10
 date: 2024-11-09
 ---

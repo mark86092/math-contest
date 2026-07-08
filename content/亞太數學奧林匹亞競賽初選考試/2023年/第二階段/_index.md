@@ -1,5 +1,6 @@
 ---
 title: "第二階段"
+bookCollapseSection: true
 weight: 20
 date: 2023-02-01
 ---
