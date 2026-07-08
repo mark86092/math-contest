@@ -3,7 +3,7 @@
     <img src="{{ partial "docs/icon" "calendar" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Calendar" }}" />
     <span>
       {{- partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) -}}
-      {{- with $.Params.enddate }}～{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}{{ end -}}
+      {{- with $.Params.enddate }} – {{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}{{ end -}}
     </span>
   </div>
 {{ end }}
