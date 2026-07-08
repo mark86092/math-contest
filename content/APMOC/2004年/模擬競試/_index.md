@@ -29,4 +29,4 @@ $$f(x^3 + y^3) = (x + y)\left((f(x))^2 - f(x)f(y) + (f(y))^2\right),$$
 
 ## Reference
 
-- [試題與解答](/math-contest/files/亞太數學奧林匹亞模擬競試/2004年/試題與解答.pdf)
+- [試題與解答](/math-contest/files/亞太數學研習營/2004年/試題與解答.pdf)
