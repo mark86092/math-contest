@@ -52,6 +52,14 @@ content/亞太數學奧林匹亞競賽初選考試/<年度>/第二階段/_index.
 - 來源網站直接展開 URL，例如：`- https://cantor.math.ntnu.edu.tw/...`
 - 日期用 `date` front matter（顯示在標題下方，格式 `2006/01/02`，同時決定 timeline 排序）。跨多日的活動（例如研習營）另加 `enddate`，會渲染成「開始 – 結束」區間；`date` 仍為開始日。此區間顯示由 `layouts/partials/docs/post-meta.html` 處理。
 
+## 特輯（彙整頁）
+
+「特輯」是跨年度、跨分類的彙整頁，放在 `content/特輯/` 底下，例如「學科能力競賽 複賽北一區」列出各年度的複賽北一區。
+
+- 每個特輯是一個 markdown 檔，front matter 設 `layout: "list-filter"` 與 `filterpath: "<路徑片段>"`（例如 `複賽/北一區`）。
+- `layouts/list-filter.html` 會掃描全站，列出檔案路徑含 `filterpath` 的 section 頁面，一列一個，文字為其上上層（年度）標題，連結指向該 section；該頁自身若有 `date` 才顯示日期。
+- 新增其他特輯（例如其他區、其他考試類別）只要再建一個 markdown 檔改 `filterpath` 即可，不需另寫 layout。
+
 ## 各年度區域命名
 
 區域命名依各年度實際資料而定，不固定。常見的有：北一區、北二區、嘉義區、臺南區、高屏區、臺北市、新北市、臺中市、高雄市、臺中區等。新增時以來源資料的實際區域名稱為準，不要自行推斷。
