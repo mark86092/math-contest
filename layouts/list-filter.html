@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{- $filter := .Params.filterpath -}}
+  {{- $result := slice -}}
+  {{- range site.RegularPages -}}
+    {{- if and .File (strings.Contains .File.Path $filter) -}}
+      {{- $result = $result | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $sorted := sort $result "File.Path" -}}
+
+  {{- range $sorted }}
+  {{- $breadcrumb := slice -}}
+  {{- $p := . -}}
+  {{- range seq 10 -}}
+    {{- if and $p (ne $p.Kind "home") -}}
+      {{- $breadcrumb = $breadcrumb | append $p.Title -}}
+      {{- $p = $p.Parent -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $breadcrumb = collections.Reverse $breadcrumb -}}
+
+  <div style="display:flex; align-items:baseline; gap:1rem; padding:0.5rem 0; border-bottom:1px solid var(--gray-100);">
+    <a href="{{ .RelPermalink }}">{{ delimit $breadcrumb " / " }}</a>
+  </div>
+  {{- else }}
+  <p>找不到符合的頁面。</p>
+  {{- end }}
+</article>
+{{ end }}
