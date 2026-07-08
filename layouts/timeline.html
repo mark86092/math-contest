@@ -21,7 +21,7 @@
 
   <div style="display:flex; align-items:baseline; gap:1rem; padding:0.5rem 0; border-bottom:1px solid var(--gray-100);">
     <span style="white-space:nowrap; opacity:0.6; font-size:0.9em; min-width:6rem;">
-      {{ .Date.Format "2006/01/02" }}
+      {{ partial "docs/date-range" . }}
     </span>
     <a href="{{ .RelPermalink }}">{{ delimit $breadcrumb " / " }}</a>
   </div>

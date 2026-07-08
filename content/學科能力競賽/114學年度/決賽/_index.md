@@ -2,6 +2,7 @@
 title: "決賽"
 bookCollapseSection: true
 date: 2025-12-05
+enddate: 2025-12-06
 ---
 
 ## Reference

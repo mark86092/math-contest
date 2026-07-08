@@ -1,0 +1,10 @@
+{{/*
+  回傳頁面日期字串；若有 enddate 則回傳「開始 – 結束」區間。
+  用法：{{ partial "docs/date-range" . }}（傳入 page context）
+*/}}
+{{- $fmt := default "2006/01/02" site.Params.BookDateFormat -}}
+{{- $out := partial "docs/date" (dict "Date" .Date "Format" $fmt) -}}
+{{- with .Params.enddate -}}
+  {{- $out = printf "%s – %s" $out (partial "docs/date" (dict "Date" . "Format" $fmt)) -}}
+{{- end -}}
+{{- return $out -}}
