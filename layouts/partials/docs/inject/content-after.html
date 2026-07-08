@@ -1,7 +1,10 @@
 {{ if .Pages }}
-<ul style="line-height: 2;">
-  {{ range .Pages }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
+{{ range .Pages }}
+<div style="display:flex; align-items:baseline; gap:1rem; padding:0.5rem 0; border-bottom:1px solid var(--gray-100);">
+  <span style="white-space:nowrap; opacity:0.6; font-size:0.9em; min-width:6rem;">
+    {{- if .Params.date }}{{ partial "docs/date-range" . }}{{ end -}}
+  </span>
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</div>
+{{ end }}
 {{ end }}
