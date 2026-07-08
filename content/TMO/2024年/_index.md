@@ -1,0 +1,10 @@
+---
+title: "2024年"
+bookCollapseSection: true
+weight: 2024
+---
+
+## Reference
+
+- [試題](/math-contest/files/臺灣數學奧林匹亞競賽/2024年/試題.pdf)
+- https://tpmso.org/tmo/wp-content/uploads/2025/01/2024_TMO_%E5%85%AC%E5%91%8A.pdf
