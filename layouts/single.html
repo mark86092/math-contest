@@ -1,6 +1,7 @@
 {{ define "main" }}
   <article class="markdown book-article">
     {{- with partial "breadcrumb-title.html" . }}<h1>{{ . }}</h1>{{ end -}}
+    {{- if .Params.date }}{{ partial "docs/post-meta" . }}{{ end -}}
     {{- .Content -}}
   </article>
 {{ end }}
