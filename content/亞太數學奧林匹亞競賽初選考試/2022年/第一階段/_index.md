@@ -3,6 +3,10 @@ title: "第一階段"
 bookCollapseSection: true
 weight: 10
 date: 2021-11-13
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2022年/第一階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2023/06/211105-E.pdf"
 ---
 
 ## 選填題
@@ -47,8 +51,3 @@ date: 2021-11-13
 ### 第二題
 
 已知非負實數 $a, b, c, d$ 滿足 $a + 2b + 3c + 4d = 1$ 且 $(a+b)(c+d)^2 = (a+c)(b+d)^2 = k$。則 $k$ 的最大值為何？又該最大值在何時發生？
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2022年/第一階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2023/06/211105-E.pdf

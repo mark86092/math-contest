@@ -3,6 +3,10 @@ title: "第二階段"
 bookCollapseSection: true
 weight: 20
 date: 2021-01-27
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2021年/第二階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2022/09/2021APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7%E5%B0%81%E9%9D%A2.pdf"
 ---
 
 每題 7 分，共 5 題。
@@ -32,8 +36,3 @@ $$a^a b^b c^c d^d \geq \frac{(abcd)^{1/4}}{\sqrt{ab} + \sqrt{bc} + \sqrt{cd} + \
 ## 第五題
 
 以三角形 $ABC$ 的三條邊 $BC$、$CA$、$AB$ 為底，分別向外作正方形 $Q_A$、$Q_B$、$Q_C$。設 $Q_B$ 中與頂點 $A$ 相鄰的兩頂點為 $C$、$D$，又設 $Q_C$ 中與頂點 $A$ 相鄰的兩頂點為 $B$、$E$。令 $Q_A$ 的中心點為 $M$。試證：$AM$、$BD$、$CE$ 三線共點。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2021年/第二階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2022/09/2021APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7%E5%B0%81%E9%9D%A2.pdf

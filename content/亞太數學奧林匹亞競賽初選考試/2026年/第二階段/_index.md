@@ -3,6 +3,10 @@ title: "第二階段"
 bookCollapseSection: true
 weight: 20
 date: 2026-01-28
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2026年/第二階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2026/01/2026-APMO-Pre2%E5%85%AC%E5%91%8A.pdf"
 ---
 
 ## 第一題
@@ -28,8 +32,3 @@ date: 2026-01-28
 證明：對於滿足 $a_1^2 + a_2^2 + \cdots + a_{400}^2 = 1$ 的實數 $a_1, a_2, \ldots, a_{400}$，必存在正整數 $m \leq 10$，使得我們可以從中找到 $m$ 個 $a_{i_1}, \ldots, a_{i_m}$（$1 \leq i_1 < i_2 < \cdots < i_m \leq 400$），並適當選取 $b_1, \ldots, b_m \in \{-1, 1\}$，使滿足
 
 $$|a_{i_1}b_1 + a_{i_2}b_2 + \cdots + a_{i_m}b_m| < \frac{1}{2026}.$$
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2026年/第二階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2026/01/2026-APMO-Pre2%E5%85%AC%E5%91%8A.pdf

@@ -3,6 +3,10 @@ title: "2004年"
 bookCollapseSection: true
 weight: 2004
 date: 2004-03-16
+references:
+  - text: "試題及參考解答（傅承德、洪文良，《科學教育月刊》第 267 期，中華民國九十三年四月）"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽/2004年/試題及參考解答.pdf"
+  - url: "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564115381784d09345bd93/04-11%E4%BA%9E%E5%A4%AA%E6%95%B8%E5%AD%B8%E7%AB%B6%E8%B3%BD.pdf"
 ---
 
 第 16 屆亞太數學奧林匹亞競賽（APMO）於 2004 年 3 月 16 日同時在台北（中央研究院）及高雄（高雄大學）兩地舉行。時間限制：計 4 小時（9:00 am – 1:00 pm），不得使用計算器，本試卷共五題，每題滿分七分。
@@ -38,8 +42,3 @@ $$\left\lfloor \frac{(n-1)!}{n(n+1)} \right\rfloor$$
 設 $a, b, c$ 為任意正整數，試證：
 
 $$(a^2 + 2)(b^2 + 2)(c^2 + 2) \geq 9(ab + bc + ca).$$
-
-## Reference
-
-- [試題及參考解答](/math-contest/files/亞太數學奧林匹亞競賽/2004年/試題及參考解答.pdf)（傅承德、洪文良，《科學教育月刊》第 267 期，中華民國九十三年四月）
-- https://www.sec.ntnu.edu.tw/uploads/asset/data/62564115381784d09345bd93/04-11%E4%BA%9E%E5%A4%AA%E6%95%B8%E5%AD%B8%E7%AB%B6%E8%B3%BD.pdf

@@ -3,6 +3,10 @@ title: "2019年"
 bookCollapseSection: true
 weight: 2019
 date: 2018-12-01
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2019年/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2022/09/2019APMO%E5%88%9D%E9%81%B8%E8%80%83%E8%A9%A6%E8%A7%A3%E7%AD%94%E6%9B%B4%E6%AD%A3.pdf"
 ---
 
 ## 第一題
@@ -54,8 +58,3 @@ $$f(a_1) + f(a_2) + \cdots + f(a_{100}) - f(a_1 + a_2 + \cdots + a_{100})$$
 ## 第七題
 
 （7 分）設正整數 $k$ 滿足 $1 < k < 100$。對 $1, 2, \cdots, 100$ 的任一個排列 $a_1, a_2, \cdots, a_{100}$，取最小的 $m > k$，使得 $a_m$ 小於 $a_1, a_2, \cdots, a_k$ 中至少 $(k - 1)$ 個數。已知滿足 $a_m = 1$ 的排列個數恰為 $\dfrac{100!}{4}$。假設符合此條件的 $k$ 值恰為 $a$ 或 $b$（其中 $a < b$）。則 $a, b$ 之值為？
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2019年/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2022/09/2019APMO%E5%88%9D%E9%81%B8%E8%80%83%E8%A9%A6%E8%A7%A3%E7%AD%94%E6%9B%B4%E6%AD%A3.pdf

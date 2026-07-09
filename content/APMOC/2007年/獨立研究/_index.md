@@ -3,6 +3,9 @@ title: "獨立研究"
 bookCollapseSection: true
 weight: 10
 date: 2007-02-10
+references:
+  - text: "參考解答"
+    url: "/math-contest/files/亞太數學研習營/2007年/參考解答.pdf"
 ---
 
 二〇〇七亞太數學奧林匹亞研習營，獨立研究。時間限制：計三小時（08:30 – 11:30），除作圖外，答案限用黑色或藍色筆書寫，答案不得以修正液（帶）修正，不得使用電子計算器，每題七分。
@@ -30,7 +33,3 @@ $$\frac{ab}{c(c + a)} + \frac{bc}{a(a + b)} + \frac{ca}{b(b + c)} \geq \frac{a}{
 （i）試將 $\triangle DMN$ 的三個內角用 $\angle A, \angle B, \angle C$ 表示。
 
 （ii）證明 $\triangle DMN$ 的外接圓圓心落在 $\triangle PMN$ 的外接圓上。
-
-## Reference
-
-- [參考解答](/math-contest/files/亞太數學研習營/2007年/參考解答.pdf)

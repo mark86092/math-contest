@@ -3,6 +3,10 @@ title: "第一階段"
 bookCollapseSection: true
 weight: 10
 date: 2022-10-30
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2023年/第一階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2023/06/2023_APMO_Pre1.pdf"
 ---
 
 ## 選填題
@@ -36,8 +40,3 @@ date: 2022-10-30
 ### 第二題
 
 設 $\triangle ABC$ 為直角三角形，$\angle B$ 為直角。有一個圓心在 $BC$ 邊上的圓 $\omega$ 與 $AC$ 邊相切。由點 $A$ 向圓 $\omega$ 引另一條切線 $AT$，其中 $T$ 為切點且不在 $AC$ 邊上。設點 $D$ 為 $AC$ 邊的中點，再設 $BD$ 與 $AT$ 交於點 $M$。試證：$MT = MB$。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2023年/第一階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2023/06/2023_APMO_Pre1.pdf

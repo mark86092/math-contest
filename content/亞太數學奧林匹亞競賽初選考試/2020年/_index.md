@@ -3,6 +3,10 @@ title: "2020年"
 bookCollapseSection: true
 weight: 2020
 date: 2019-11-30
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2020年/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2022/10/2020APMO%E5%88%9D%E9%81%B8%E5%90%AB%E8%A7%A3%E7%AD%94.pdf"
 ---
 
 ## 第一題
@@ -51,8 +55,3 @@ $$T = \sigma_1 \sigma_2 + \sigma_3 \sigma_4 + \sigma_5 \sigma_6 + \sigma_7 \sigm
 則對 $S$ 內的所有元素，所得的 $T$ 的算術平均數為？
 
 （b）（5 分）在 $S$ 中，滿足「對所有的 $k = 1, 2, \ldots, 7$，$k$ 的後一個數字必定不是 $k + 1$」的排列共有多少個？
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2020年/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2022/10/2020APMO%E5%88%9D%E9%81%B8%E5%90%AB%E8%A7%A3%E7%AD%94.pdf

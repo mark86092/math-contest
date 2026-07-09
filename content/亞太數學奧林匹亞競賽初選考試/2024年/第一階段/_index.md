@@ -3,6 +3,10 @@ title: "第一階段"
 bookCollapseSection: true
 weight: 10
 date: 2023-11-11
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2024年/第一階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2023/11/2024_APMO_Pre1_20231031_unlocked.pdf"
 ---
 
 ## 選填題
@@ -42,8 +46,3 @@ $$\sum_{k=0}^{2024} k \cdot p(k) = 2024!.$$
 $$\dfrac{x}{3x+y+z} + \dfrac{y}{x+3y+z} + \dfrac{z}{x+y+3z}$$
 
 之值的範圍。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2024年/第一階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2023/11/2024_APMO_Pre1_20231031_unlocked.pdf

@@ -3,6 +3,10 @@ title: "第一階段"
 bookCollapseSection: true
 weight: 10
 date: 2020-11-21
+references:
+  - text: "試題含解答"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2021年/第一階段/考試(一).pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2025/02/2021APMO%E5%88%9D%E9%81%B8%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E8%80%83%E9%A1%8C%E5%90%AB%E8%A7%A3%E7%AD%94.pdf"
 ---
 
 ## 選填題
@@ -41,8 +45,3 @@ date: 2020-11-21
 ### 第二題
 
 （7 分）給定正整數 $n$。有一張 $n \times n$ 的方格紙。對於方格紙上的一對方格，若這兩個方格有公共點（可以是共邊也可以是共頂點），則我們稱這一對方格「相鄰」。試求此方格紙上相鄰方格的對數。
-
-## Reference
-
-- [試題含解答](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2021年/第一階段/考試(一).pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2025/02/2021APMO%E5%88%9D%E9%81%B8%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E8%80%83%E9%A1%8C%E5%90%AB%E8%A7%A3%E7%AD%94.pdf

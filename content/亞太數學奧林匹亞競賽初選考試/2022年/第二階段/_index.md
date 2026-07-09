@@ -3,6 +3,10 @@ title: "第二階段"
 bookCollapseSection: true
 weight: 20
 date: 2022-02-09
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2022年/第二階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2022/09/APMO22-2-0206.pdf"
 ---
 
 ## 第一題
@@ -28,8 +32,3 @@ $A$ 是平面上的一個凸 2022 邊形，其頂點依序為 $P_0, P_1, \cdots,
 $$\angle BPC - \angle PBC = \angle CPA - \angle PCA = \angle APB - \angle PAB = 90^\circ.$$
 
 證明：三角形 $ABC$ 是一個正三角形。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2022年/第二階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2022/09/APMO22-2-0206.pdf

@@ -3,6 +3,10 @@ title: "第二階段"
 bookCollapseSection: true
 weight: 20
 date: 2024-01-24
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2024年/第二階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2024/11/2024_APMO_Pre2_unlocked.pdf"
 ---
 
 ## 第一題
@@ -30,8 +34,3 @@ $$\angle KID = \frac{\angle B - \angle C}{2}.$$
 ## 第五題
 
 一個正五邊形的五個頂點各被賦予一個整數，使得所有頂點的數字總和大於零。若連續三個頂點的數字依序為 $x$、$y$ 和 $z$，且 $y < 0$，則我們可以對其進行以下操作：將 $x$、$y$ 和 $z$ 分別改為 $x + y$、$-y$ 和 $z + y$。只要五個頂點中任一頂點的數字小於零，我們便會持續進行操作。試問：以上操作是否必然只能操作有限次？
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2024年/第二階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2024/11/2024_APMO_Pre2_unlocked.pdf

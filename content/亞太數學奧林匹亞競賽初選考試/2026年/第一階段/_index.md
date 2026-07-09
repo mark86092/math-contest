@@ -3,6 +3,10 @@ title: "第一階段"
 bookCollapseSection: true
 weight: 10
 date: 2025-11-08
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2026年/第一階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2025/11/2026APMO%E5%88%9D%E9%81%B8%E4%B8%80%E9%9A%8E%E9%A1%8C%E6%9C%AC%E5%8F%8A%E8%A7%A3%E7%AD%94%E5%85%AC%E5%91%8A.pdf"
 ---
 
 ## 選填題
@@ -40,8 +44,3 @@ $2025^2$ 個數字構成一個 $2025 \times 2025$ 的方陣。已知方陣中任
 ### 第二題
 
 令 $ABC$ 為銳角三角形，其中 $AC > AB$。在邊 $AC$ 和 $AB$ 上分別取兩點 $D$ 和 $E$，使得 $CD = BE$。假設線段 $BD$ 與 $CE$ 的交點為 $F$，並在邊 $AC$ 上取一點 $G$，使得直線 $GF$ 平行於 $\angle BAC$ 的角平分線。令 $H$ 為 $AB$ 與 $FG$ 交點。試證 $\dfrac{AB}{DA} = \dfrac{CG}{HE}$。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2026年/第一階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2025/11/2026APMO%E5%88%9D%E9%81%B8%E4%B8%80%E9%9A%8E%E9%A1%8C%E6%9C%AC%E5%8F%8A%E8%A7%A3%E7%AD%94%E5%85%AC%E5%91%8A.pdf

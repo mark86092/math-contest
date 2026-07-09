@@ -3,5 +3,7 @@
     {{- with partial "breadcrumb-title.html" . }}<h1>{{ . }}</h1>{{ end -}}
     {{- if .Params.date }}{{ partial "docs/post-meta" . }}{{ end -}}
     {{- .Content -}}
+    {{- partial "docs/children-list.html" . -}}
+    {{- partial "docs/references.html" . -}}
   </article>
 {{ end }}

@@ -1,0 +1,8 @@
+{{ with .Params.references }}
+<h2 id="reference">Reference<a class="anchor" href="#reference">#</a></h2>
+<ul>
+{{ range . -}}
+<li><a href="{{ .url }}">{{ or .text .url }}</a></li>
+{{ end -}}
+</ul>
+{{ end }}

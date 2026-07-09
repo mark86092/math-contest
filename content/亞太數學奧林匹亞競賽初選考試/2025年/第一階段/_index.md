@@ -3,6 +3,10 @@ title: "第一階段"
 bookCollapseSection: true
 weight: 10
 date: 2024-11-09
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2025年/第一階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2024/11/2025_APMO_Pre1_20241109.pdf"
 ---
 
 ## 選填題
@@ -41,8 +45,3 @@ date: 2024-11-09
 ### 第二題
 
 找出所有正整數對 $(a, b)$，使得 $a^2 + a + b$ 是 $ab + b + 3$ 的倍數。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2025年/第一階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2024/11/2025_APMO_Pre1_20241109.pdf

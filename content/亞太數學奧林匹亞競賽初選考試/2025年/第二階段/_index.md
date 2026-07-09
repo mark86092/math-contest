@@ -3,6 +3,10 @@ title: "第二階段"
 bookCollapseSection: true
 weight: 20
 date: 2025-01-22
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2025年/第二階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2025/02/2025-APMO-Pre2.pdf"
 ---
 
 ## 第一題
@@ -42,8 +46,3 @@ $$f(n) = n + \left[\sqrt[3]{n + 2\left[\sqrt[3]{n}\right]}\right], \quad \forall
 $$S := \left\{n \in \mathbb{N} : f(f(n)) - f(n) - 1 = \left[\sqrt[3]{f(n)}\right] \leq 45\right\}$$
 
 恰有 2025 個相異元素。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2025年/第二階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2025/02/2025-APMO-Pre2.pdf

@@ -3,6 +3,10 @@ title: "第二階段"
 bookCollapseSection: true
 weight: 20
 date: 2023-02-01
+references:
+  - text: "試卷"
+    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2023年/第二階段/試卷.pdf"
+  - url: "https://tpmso.org/tmo/wp-content/uploads/2023/02/2023APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7.pdf"
 ---
 
 ## 第一題
@@ -36,8 +40,3 @@ $$C_1 \leq \frac{S_n}{\sqrt{n}} \leq C_2$$
 ## 第五題
 
 平面上有一點 $A$ 在圓 $\omega$ 上，另有一點 $X$ 在圓 $\omega$ 外。過點 $X$ 作一直線 $\ell$，設 $\ell$ 與 $\omega$ 交於兩點 $B$、$C$。令點 $H$ 為三角形 $ABC$ 的垂心。試證：平面上存在一點 $Y$，滿足 $HA^2 + HY^2$ 為一個與直線 $\ell$ 無關的定值。
-
-## Reference
-
-- [試卷](/math-contest/files/亞太數學奧林匹亞競賽初選考試/2023年/第二階段/試卷.pdf)
-- https://tpmso.org/tmo/wp-content/uploads/2023/02/2023APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7.pdf
