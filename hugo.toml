@@ -1,6 +1,6 @@
 baseURL = 'https://mark86092.github.io/math-contest/'
 locale = 'zh-tw'
-title = '數學競賽題庫'
+title = '數學競賽歷屆試題'
 theme = 'hugo-book'
 enableRobotsTXT = true
 buildFuture = true
