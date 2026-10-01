@@ -1,5 +1,5 @@
 ---
 title: "決賽"
 bookCollapseSection: true
-weight: 10
+weight: 30
 ---
