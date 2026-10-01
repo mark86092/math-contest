@@ -4,6 +4,24 @@
   }
 }
 
+// section 頁的子頁清單：標題靠左、日期靠右；空間不夠時日期換到下一行
+.children-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.children-list-date {
+  margin-left: auto;
+  white-space: nowrap;
+  opacity: 0.6;
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums;
+}
+
 @media print {
   .book-header aside {
     display: none;

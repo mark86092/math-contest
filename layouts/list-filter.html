@@ -26,11 +26,11 @@
 
   {{- range $sorted }}
   {{- $pg := .page -}}
-  <div style="display:flex; align-items:baseline; gap:1rem; padding:0.5rem 0; border-bottom:1px solid var(--gray-100);">
-    <span style="white-space:nowrap; opacity:0.6; font-size:0.9em; width:12rem; flex:none;">
-      {{- if $pg.Params.date }}{{ partial "docs/date-range" $pg }}{{ end -}}
-    </span>
+  <div class="children-list-item">
     <a href="{{ $pg.RelPermalink }}">{{ .yearTitle }}</a>
+    {{- if $pg.Params.date }}
+    <span class="children-list-date">{{ partial "docs/date-range" $pg }}</span>
+    {{- end }}
   </div>
   {{- else }}
   <p>找不到符合的頁面。</p>

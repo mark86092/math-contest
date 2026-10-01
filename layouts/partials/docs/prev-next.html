@@ -1,0 +1,28 @@
+{{/* 只在同一層（同一個上層 section 底下）的頁面之間切換上一頁／下一頁，不跨分類 */}}
+{{- with .Parent -}}
+  {{- $siblings := .Pages.ByWeight -}}
+  {{- /* Hugo 的 Pages.Next 回傳排序在前的那一頁，因此與直覺相反（主題原本也是這樣對調） */ -}}
+  {{- $prev := $siblings.Next $ -}}
+  {{- $next := $siblings.Prev $ -}}
+
+  {{- if or $prev $next -}}
+  <div class="flex flex-wrap justify-between">
+    <span>
+    {{ with $prev }}
+      <a href="{{ .RelPermalink }}" class="flex align-center">
+        <img src="{{ partial "docs/icon" "backward" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Backward" }}" />
+        <span>{{ partial "docs/title" . }}</span>
+      </a>
+    {{ end }}
+    </span>
+    <span>
+    {{ with $next }}
+      <a href="{{ .RelPermalink }}" class="flex align-center">
+        <span>{{ partial "docs/title" . }}</span>
+        <img src="{{ partial "docs/icon" "forward" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Forward" }}" />
+      </a>
+    {{ end }}
+    </span>
+  </div>
+  {{- end -}}
+{{- end -}}
