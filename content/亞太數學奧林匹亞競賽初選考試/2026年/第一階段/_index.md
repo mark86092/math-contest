@@ -6,7 +6,7 @@ date: 2025-11-08
 references:
   - text: "試卷"
     url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2026年/第一階段/試卷.pdf"
-  - url: "https://tpmso.org/tmo/wp-content/uploads/2025/11/2026APMO%E5%88%9D%E9%81%B8%E4%B8%80%E9%9A%8E%E9%A1%8C%E6%9C%AC%E5%8F%8A%E8%A7%A3%E7%AD%94%E5%85%AC%E5%91%8A.pdf"
+  - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2025/11/2026APMO%E5%88%9D%E9%81%B8%E4%B8%80%E9%9A%8E%E9%A1%8C%E6%9C%AC%E5%8F%8A%E8%A7%A3%E7%AD%94%E5%85%AC%E5%91%8A.pdf"
 ---
 
 ## 選填題

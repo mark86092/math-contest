@@ -6,7 +6,7 @@ date: 2026-01-28
 references:
   - text: "試卷"
     url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2026年/第二階段/試卷.pdf"
-  - url: "https://tpmso.org/tmo/wp-content/uploads/2026/01/2026-APMO-Pre2%E5%85%AC%E5%91%8A.pdf"
+  - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2026/01/2026-APMO-Pre2%E5%85%AC%E5%91%8A.pdf"
 ---
 
 ## 第一題

@@ -6,7 +6,7 @@ date: 2021-11-13
 references:
   - text: "試卷"
     url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2022年/第一階段/試卷.pdf"
-  - url: "https://tpmso.org/tmo/wp-content/uploads/2023/06/211105-E.pdf"
+  - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2023/06/211105-E.pdf"
 ---
 
 ## 選填題

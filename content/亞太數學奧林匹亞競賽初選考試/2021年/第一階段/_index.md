@@ -6,7 +6,7 @@ date: 2020-11-21
 references:
   - text: "試題含解答"
     url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2021年/第一階段/考試(一).pdf"
-  - url: "https://tpmso.org/tmo/wp-content/uploads/2025/02/2021APMO%E5%88%9D%E9%81%B8%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E8%80%83%E9%A1%8C%E5%90%AB%E8%A7%A3%E7%AD%94.pdf"
+  - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2025/02/2021APMO%E5%88%9D%E9%81%B8%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E8%80%83%E9%A1%8C%E5%90%AB%E8%A7%A3%E7%AD%94.pdf"
 ---
 
 ## 選填題

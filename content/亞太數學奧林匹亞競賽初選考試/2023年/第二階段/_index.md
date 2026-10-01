@@ -6,7 +6,7 @@ date: 2023-02-01
 references:
   - text: "試卷"
     url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2023年/第二階段/試卷.pdf"
-  - url: "https://tpmso.org/tmo/wp-content/uploads/2023/02/2023APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7.pdf"
+  - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2023/02/2023APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7.pdf"
 ---
 
 ## 第一題

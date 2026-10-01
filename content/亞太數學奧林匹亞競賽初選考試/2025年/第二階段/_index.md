@@ -6,7 +6,7 @@ date: 2025-01-22
 references:
   - text: "試卷"
     url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2025年/第二階段/試卷.pdf"
-  - url: "https://tpmso.org/tmo/wp-content/uploads/2025/02/2025-APMO-Pre2.pdf"
+  - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2025/02/2025-APMO-Pre2.pdf"
 ---
 
 ## 第一題
