@@ -1,4 +1,4 @@
-baseURL = 'https://mark86092.github.io/math-contest/'
+baseURL = 'https://math-contest.markchen.cc/'
 locale = 'zh-tw'
 title = '數學競賽歷屆試題'
 theme = 'hugo-book'

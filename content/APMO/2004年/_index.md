@@ -5,7 +5,7 @@ weight: 2004
 date: 2004-03-16
 references:
   - text: "試題及參考解答（傅承德、洪文良，《科學教育月刊》第 267 期，中華民國九十三年四月）"
-    url: "/math-contest/files/亞太數學奧林匹亞競賽/2004年/試題及參考解答.pdf"
+    url: "/files/亞太數學奧林匹亞競賽/2004年/試題及參考解答.pdf"
   - url: "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564115381784d09345bd93/04-11%E4%BA%9E%E5%A4%AA%E6%95%B8%E5%AD%B8%E7%AB%B6%E8%B3%BD.pdf"
 ---
 

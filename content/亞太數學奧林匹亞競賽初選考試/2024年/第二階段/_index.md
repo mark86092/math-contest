@@ -5,7 +5,7 @@ weight: 20
 date: 2024-01-24
 references:
   - text: "試卷"
-    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2024年/第二階段/試卷.pdf"
+    url: "/files/亞太數學奧林匹亞競賽初選考試/2024年/第二階段/試卷.pdf"
   - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2024/11/2024_APMO_Pre2_unlocked.pdf"
 ---
 

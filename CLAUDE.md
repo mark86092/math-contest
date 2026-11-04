@@ -4,7 +4,7 @@
 
 - Hugo 靜態網站，主題為 `hugo-book`
 - 內容放在 `content/`，靜態檔案（PDF）放在 `static/files/`
-- PDF 連結需加 `/math-contest/` 前綴，例如 `/math-contest/files/...`
+- PDF 連結以 `/files/...` 開頭（網站部署在自訂網域 math-contest.markchen.cc 根目錄，不需子路徑前綴）
 
 ## 目錄結構
 
@@ -48,14 +48,14 @@ content/亞太數學奧林匹亞競賽初選考試/<年度>/第二階段/_index.
 
 - 各考試 markdown 檔的題目用 `## 第一題`、`## 第二題` 等標題
 - 參考資料放在 front matter 的 `references` 陣列，渲染時會統一顯示在頁面**最下方**（標題為 Reference），不要手動在內文寫 `## Reference`
-  - PDF 連結：`{ text: "說明文字", url: "/math-contest/files/..." }`
+  - PDF 連結：`{ text: "說明文字", url: "/files/..." }`
   - 純網址（無額外說明文字）：只寫 `{ url: "https://..." }`，畫面上會直接顯示展開的 URL
   - 渲染邏輯見 `layouts/partials/docs/references.html`，由 `layouts/single.html`、`layouts/list.html` 呼叫
 
 ```yaml
 references:
   - text: "111高中學科能力競賽數學科決賽總報告.pdf"
-    url: "/math-contest/files/學科能力競賽/111學年度/決賽/111高中學科能力競賽數學科決賽總報告.pdf"
+    url: "/files/學科能力競賽/111學年度/決賽/111高中學科能力競賽數學科決賽總報告.pdf"
   - url: "https://cantor.math.ntnu.edu.tw/..."
 ```
 - 日期用 `date` front matter（顯示在標題下方，格式 `2006/01/02`，同時決定 timeline 排序）。跨多日的活動（例如研習營）另加 `enddate`，會渲染成「開始 – 結束」區間；`date` 仍為開始日。此區間顯示由 `layouts/partials/docs/post-meta.html` 處理。
