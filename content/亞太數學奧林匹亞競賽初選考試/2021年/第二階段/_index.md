@@ -5,7 +5,7 @@ weight: 20
 date: 2021-01-27
 references:
   - text: "試卷"
-    url: "/math-contest/files/亞太數學奧林匹亞競賽初選考試/2021年/第二階段/試卷.pdf"
+    url: "/files/亞太數學奧林匹亞競賽初選考試/2021年/第二階段/試卷.pdf"
   - url: "https://tpmso.k12ea.gov.tw/tmo/wp-content/uploads/2022/09/2021APMOpretestII_%E7%AD%94%E6%A1%88%E5%8D%B7%E5%B0%81%E9%9D%A2.pdf"
 ---
 
